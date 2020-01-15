@@ -1,0 +1,48 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+nav {
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+}
+
+nav button {
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+li a {
+    text-decoration: none;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.87)
+}
+
+li a:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+
+.loginbutton {
+    padding: 6px 10px;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+.menubutton {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}

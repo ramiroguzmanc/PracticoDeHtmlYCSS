@@ -46,3 +46,57 @@ li a:hover {
     background-color: transparent;
     padding: 0;
 }
+
+.formbody {
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.formbody img {
+    /* border: 1px solid gray; */
+    width: 272px;
+    height: 92px;
+    margin-bottom: 25px;
+}
+
+form input {
+    width: 537px;
+    height: 42px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px 0.5px rgba(32, 33, 36, 0.28);
+    border: none;
+    margin-bottom: 20px;
+    background-image: url(../images/lupa.png);
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 15px;
+    padding-left: 45px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
+
+form input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+form input:focus {
+    outline: 0px;
+}
+
+form button {
+    margin: 11px 4px;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    height: 36px;
+    border: none;
+    color: #5F6368;
+    border-radius: 4px;
+}
+
+form button:hover {
+    color: #222;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
